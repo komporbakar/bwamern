@@ -67,6 +67,7 @@ header {
   border-bottom: 1px solid $gray-200;
   width: 100%;
   position: relative;
+  margin-bottom: 50px;
 
   .navbar {
     height: 80px;
@@ -77,7 +78,7 @@ header {
             color: $primary;
           }
         }
-        * {
+        a {
           &.nav-link {
             font-weight: 400;
             letter-spacing: 1px;
@@ -85,7 +86,7 @@ header {
             padding-left: 1rem;
             padding-right: 1rem;
             &:hover {
-              text-decoration: none;
+              text-decoration: underline;
             }
           }
         }

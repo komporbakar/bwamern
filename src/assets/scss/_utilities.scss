@@ -692,6 +692,11 @@ $utilities: map-merge(
       class: text,
       values: $utilities-text-emphasis-colors,
     ),
+    "text-gray-": (
+      property: color,
+      class: text,
+      values: $grays,
+    ),
     // scss-docs-end utils-color
     // scss-docs-start utils-bg-color
     "background-color":
